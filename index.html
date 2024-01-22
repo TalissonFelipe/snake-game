@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+    <div class="score">score: <span class="score--value">00</span></div>
+
+    <div class="menu-screen">
+        <span class="game-over">game over</span>
+        <span class="final-score">score <span>00</span></span>
+
+        <button class="btn-play">
+            <span class="material-symbols-outlined">
+                play_arrow
+            </span>
+
+            Jogar novamente
+        </button>
+    </div>
+
+    <canvas width="600" height="600"></canvas>
+
+    <div class="controls">
+        <button class="control up">
+            <span class="material-symbols-outlined control up">
+                arrow_drop_up
+            </span>
+        </button>
+        <button class="control down">
+            <span class="material-symbols-outlined control down">
+                arrow_drop_down
+            </span>
+        </button>
+        <button class="control left">
+            <span class="material-symbols-outlined control left">
+                arrow_left
+            </span>
+        </button>
+        <button class="control right">
+            <span class="material-symbols-outlined control right">
+                arrow_right
+            </span>
+        </button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
