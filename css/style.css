@@ -74,10 +74,18 @@ canvas {
     gap: 5px;
     padding: 10px;
     border: 1px solid #3333;
+    align-items: center;
+    justify-content: center;
 }
 
 .control {
     border: 1px solid black;
     padding: 0.7em;
+}
+
+@media (max-width: 900px){
+    canvas {
+        width: 400px;
+    }    
 }
 
