@@ -86,6 +86,9 @@ canvas {
 @media (max-width: 900px){
     canvas {
         width: 400px;
-    }    
+    }
+    .score {
+        margin-top: -100px;
+    }
 }
 
